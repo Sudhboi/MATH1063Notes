@@ -88,6 +88,7 @@ $$
 $$
 # Yet another example
 
+
 $$
 \int \sin ^{4}x\cos ^{2}x \, dx 
 $$
@@ -100,16 +101,20 @@ $$
 $$
 \int 1 - \cos ^{2}(2x) - \cos(2x) + \cos ^{3}(2x)dx
 $$
+
 You then do some other stuff that I'm too lazy to type out.
 (Use the reduction formula from the tutorial)
 
 ## Angle Sum formulas
 
 If $\theta \in \mathbb{R}$,
+
 $$
 e^{i\theta} = \cos(\theta) + i\sin(\theta)
 $$
+
 and,
+
 $$
 e^{i\alpha}\cdot e^{i\beta} = e^{i(\alpha+\beta)}
 $$
@@ -122,26 +127,34 @@ $$
 $$
 \implies [\cos \alpha \cos \beta - \sin \alpha \sin \beta] + i[\cos \alpha \sin \beta + \cos \beta \sin \alpha]
 $$
+
 Equating the real and imaginary parts,
+
 $$
 \cos(\alpha + \beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta
 $$
 $$
 \sin(\alpha+\beta) = \cos \alpha \sin \beta + \cos \beta \sin \alpha
 $$
+
 We can derive any identity from this.
 For instance,
+
 $$
 \cos(2\theta) = \cos(\theta + \theta) = \cos \theta \cos \theta - \sin \theta \sin \theta
 $$
 $$
 = 2\cos ^{2}\theta - 1
 $$
+
 Which implies,
+
 $$
 \cos ^{2}\theta = \frac{1 + \cos(2\theta)}{2}
 $$
+
 Also,
+
 $$
 \cos(\alpha + \beta) + \cos(\alpha-\beta)
 $$
@@ -154,19 +167,27 @@ $$
 $$
  = 2\cos \alpha \cos \beta 
 $$
+
 Therefore,
+
 $$
 \cos \alpha \cos \beta = \frac{\cos(\alpha+\beta) + \cos(\alpha-\beta)}{2}
 $$
+
 This shows up in Fourier Theory on signal processing. For example,
+
 $$
 \int_{0}^{2\pi} \cos(px)\cos(qx) \, dx 
 $$
+
 Here, $p,q \in \mathbb{Z}$, and $p \neq q$.
+
 $$
 \frac{1}{2}\int_{0}^{2\pi} \cos(px + qx) + \cos(px-qx) \, dx 
 $$
+
 Case 1: $p = q$
+
 $$
 \frac{1}{2}\int_{0}^{2\pi} \cos(2px) + \cos(0x) \, dx  = \frac{1}{2}\int_{0}^{2\pi} \cos(2px) + 1 \, dx 
 $$

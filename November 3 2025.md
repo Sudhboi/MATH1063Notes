@@ -17,10 +17,13 @@ $$
 = \frac{1}{4}\arctan\left( \frac{x+1}{4} \right) + C
 $$
 ## Another example
+
 $$
 \int \frac{x}{\sqrt{ x^{2}-9 }} \, dx 
 $$
+
 You dont need trig integrals for this.
+
 ## The area of an Ellipse.
 
 $$
@@ -35,4 +38,5 @@ $$
 $$
 y = b\sqrt{ 1-\frac{x^{2}}{a^{2}} }
 $$
+
 Integrate this.

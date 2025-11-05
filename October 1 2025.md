@@ -1,6 +1,7 @@
 ## Last time
 
 We saw that,
+
 $$
 \sum_{n=1}^{\infty} \frac{1}{n}
 $$
@@ -13,6 +14,7 @@ $$
 $$
 \lim_{ N \to \infty } S_{N} = \infty
 $$
+
 So, $\sum_{n=1}^{\infty} \frac{1}{n}$ does not converge.
 
 Takeaway:
@@ -30,12 +32,14 @@ So,
 $$
 \sum_{n=0}^{\infty} a^n=\frac{1}{1-a} \text{ if } |a| < 1
 $$
+
 Definition: 
 If $\sum_{n=n_{0}}^{\infty}a_{n}$ is a series, then $\sum_{n=k}^{\infty}a_{n}$ is called the $k$-tail of the series.
 
 Fact: A series converges only if all of its $k$-tails converge.
 
 Example:
+
 $$
 \sum_{n=3}^{\infty} \left( \frac{9}{10} \right)^n =\left( \frac{9}{10} \right)^3+\left( \frac{9}{10} \right)^4 + \dots
 $$
@@ -48,59 +52,78 @@ $$
 $$
 =7.29
 $$
+
 ## Improper Integrals
 
 For example,
+
 $$
 \int_{0}^{1} \frac{1}{\sqrt{ x }} \, dx
 $$
+
 Integral explodes at a bound; We can't plug 0 into the integral.
 
 Instead, we need to take the limit,
+
 $$
 \lim_{ a \to 0^+ } \int_{a}^{1} \frac{1}{\sqrt{ x }} \, dx
 $$
 $$
 = \lim_{ a \to 0^+ } \left[ \frac{x^{1/2}}{\frac{1}{2}} \right]^1_{a} = \lim_{ a \to 0^+ } [2\sqrt{ 1 } - 2\sqrt{ a }] = 2  
 $$
+
 Definition: An improper integral of the form,
+
 $$
 \int_{a}^{\infty} f(x) \, d \text{ or } \int_{-\infty}^{a} f(x) \, dx  
 $$
+
 where $f$ is continuous on $[a,\infty)$ or $(-\infty, a]$ is called a type-1 improper integral and by definition,
+
 $$
 \int_{a}^{\infty} f(x) \, dx =\lim_{ b \to \infty } \int_{a}^{b} f(x) \, dx 
 $$
+
 An improper integral of the form,
+
 $$
 \int_{-\infty}^{\infty} f(x) \, dx = \lim_{ c \to -\infty } \int_{c}^{a} f(x) \, d + \lim_{ b \to \infty } \int_{a}^{b} f(x) \, dx = \int_{-\infty}^{a} f(x) \, dx+\int_{a}^{\infty} f(x) \, dx   
 $$
+
 for some $a$.
 
 If $f$ is continuous on $(a,b]$ but maybe not defined at $a$ then,
+
 $$
 \int_{a}^{b} f(x) \, dx = \lim_{ c \to a^+ } \int_{c}^{b} f(x) \, dx 
 $$
+
 The "approaching" of the limit is significant here. This is the type-2 integral.
 
 Issues:
+
 $$
 \int_{-a}^{a} x \, dx = 0 
 $$
 $$
 \int_{-\infty}^{\infty} x \, dx = \left[ \frac{x^2}{2} \right]^{\infty}_{\infty} = \frac{\infty^{2}}{2} -\frac{(-\infty)^{2}}{2}
 $$
+
 which should not be done.
+
 $$
 \lim_{ a \to \infty } \int_{-a}^{a} x \, dx = \lim_{ a \to \infty } \left[ \frac{x^2}{2} \right]^{a}_{a} =\lim_{ a \to \infty }  \frac{a^{2}}{2} -\frac{(-a)^{2}}{2} = 0 
 $$
 $$
 \lim_{ a \to \infty } \int_{-a}^{a+1} x \, dx = \lim_{ a \to \infty } \left[ \frac{x^2}{2} \right]^{a+1}_{-a} = \lim_{ a \to \infty } \frac{(a+1)^{2}}{2} -\frac{(-a)^{2}}{2} = \lim_{ a \to \infty } a + \frac{1}{2} = \infty
 $$
+
 Using another way,
+
 $$
 \int_{-\infty}^{\infty} x \, dx = \lim_{ a \to -\infty } -\frac{a^{2}}{2} + \lim_{ b \to \infty } \frac{b^{2}}{2} = -\infty+\infty
 $$
+
 So, $\int_{-\infty}^{\infty} x \, dx$ is divergent.
 
 $\infty-\infty$ is never well defined for integration. By splitting the integral up we made it clear that $\int_{-\infty}^{\infty} x \, dx$ is divergent.

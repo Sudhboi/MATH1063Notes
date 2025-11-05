@@ -1,13 +1,17 @@
 ## Example
 
 Take $b(n)$ and $a(n)$ where $b(n)$ is $a(n)$ with zeroes intertwined.
+
 $$
-A_{n} = \sum_{k=1}^{n} a_{n}\:\&\: B_{n} = \sum_{k=1}^{n} b(n)
+A_{n} = \sum_{k=1}^{n} a_{n} \text{ and }  B_{n} = \sum_{k=1}^{n} b(n)
 $$
+
 Let there be a catchup function $C: \mathbb{N} \to \mathbb{N}$
+
 $$
 A_{n} = B_{C(n)}
 $$
+
 $\sum a_{n} = L$ if for every $\epsilon$ there is some $N$ s.t. for all $n>N(\epsilon)$ s.t. $|A_{n} - L|<\epsilon$. For the same $\epsilon$ we can take $M=C(N(\epsilon))$ and $|B_{m} - L|<\epsilon$ for all $m>C(N(\epsilon))$. So, $\sum a_{n} = \sum b_{n}$.
 
 ## Conditional v.s. Absolute Convergence
@@ -47,6 +51,7 @@ The Partial sums $S_{0}, S_{2}, S_{4},\dots$ are decreasing but they are bounded
 $$
 S_{0}>S_{2}>S_{4}>\dots>L>\dots>S_{5}>S_{3}>S_{1}
 $$
+
 Note that $|S_{n} - S_{n-1}| = a_{n} \implies |L-S_{n}|<a_{n}$.
 
 For example, the alternating harmonic series, $\sum_{n=1}^{\infty} \frac{(-1)^n}{n}$ we know that $|S_{n} - L| < \frac{1}{N}$.
@@ -56,14 +61,15 @@ So for 0.001 accuracy we take $S_{1000}$.
 
 $\sum_{n=1}^{\infty} a_{n}b_{n}$. If $a_{n} \to 0$ & $B_{N}=\sum_{n=1}^{N}b_{n}$ is bounded, then the series converges.
 
-
 For example, 
+
 $$
 \sum_{n=1}^{\infty} \frac{1}{n} (-1)^n
 $$
 $$
 a_{n}= \frac{1}{n} \quad b_{n}=(-1)^n
 $$
+
 For all $N$, $0\leq B_{N} \leq {1}$, so it is bounded, and $a_{n} \to 0$ So by Dirichlet's test, it converges.
 
 Now we take $\sum_{n=1}^{\infty} \frac{\sin(n)}{n} = \sum_{n=1}^{\infty}a_{n}b_{n}$.
@@ -73,6 +79,7 @@ $a_{n} \to 0$, $b_{n} = \sin(n)$. $B_{N} = \sum_{n=1}^{N}\sin(n)$.
 Is $B_{N}$ bounded? There are three possibilites. It is bounded, or drifts to $\pm \infty$, or goes all over the place.
 
 We are saved because there is a nice formula for $B_{n}$.
+
 $$
 e^{i\theta} = \cos(\theta) + i\sin(\theta) \text{ when } \theta \text{ is real.}
 $$
@@ -88,9 +95,12 @@ $$
 $$
 1 + z + z^{2}+z^{3}+\dots+z^n = \sum_{k=0}^{n} \cos(k) + i\left[ \sum_{k=0}^{n} \sin(k) \right]
 $$
+
 Since it is a geometric series,
+
 $$
 1 + z + z^{2}+z^{3}+\dots+z^n = \frac{1-z^{n+1}}{1-z} = \frac{1-e^{i(n+1)}}{1-[\cos(1) + i\sin(1)]}$$
+
 since $|e^{i(n+1)}| = 1$, it converges. (Taking the imaginary part and shit.)
 
 Therefore, our initial series converges.

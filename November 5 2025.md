@@ -47,6 +47,7 @@ $$
 
 Note: $p$ does not divide $f$.
 Take,
+(Images aren't rendered properly in github (at least when using obsidian images). Please check the attachments folder for images.)
 ![[Pasted image 20251105114458.png]]
 
 $$
@@ -127,6 +128,7 @@ Therefore,
 $$
 \frac{1}{(x-2)(x-3)} = \frac{-1}{x-2} + \frac{1}{x-3}
 $$
+
 So,
 
 $$
@@ -140,11 +142,13 @@ Theorem: If $r, s \in \mathbb{Z}$ are coprime then there are integers $u, v$ s.t
 $$
 1 = ur +  vs
 $$
+
 Theorem: If $f, g \in \mathbb{R}[x]$ are coprime, and $h \in \mathbb{R}[x]$ then there are polynomials $u, v$ s.t.
 
 $$
 h = uf + vg
 $$
+
 So,
 
 $$

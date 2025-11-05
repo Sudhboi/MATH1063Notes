@@ -7,9 +7,11 @@ Given $\sum_{n=n_{0}}^{\infty}a_{n}$ and a function $f: [n_{0}, \infty)\to\mathb
 Taking an infinite histogram with width 1, and $f(n) = a_{n}$,
 
 If $\int_{n_{0}}^{\infty} f(x) \, dx = \infty$, then $\sum_{n=n_{0}}^{\infty}a_{n}$ diverges. On the other hand, if $\int_{n_{0}}^{\infty} f(x) \, dx = L<\infty$,
+
 $$
 \int_{n_{0}+1}^{\infty} f(x-1)  \, dx > \sum_{n=n_{0}+1}^{\infty} a_{n} 
 $$
+
 So $\sum a_{n}$ converges. Example, $p$-series.
 
 $\sum_{n=1}^{\infty} \frac{1}{n^p}$ with $0<p$, then $\frac{1}{n^p} \to 0$.
@@ -17,9 +19,11 @@ $\sum_{n=1}^{\infty} \frac{1}{n^p}$ with $0<p$, then $\frac{1}{n^p} \to 0$.
 Does this converge? For which $p$ values?
 
 Take $f(x) = \frac{1}{x^p}$, $f(n) = \frac{1}{n^p}$ and $f(x)$ is decreasing.
+
 $$
 \int_{1}^{\infty} \frac{1}{x^p} \, dx = \lim_{ a \to \infty } \left[ \frac{x^{1-p}}{1-p} \right]^\infty_{1} = \lim_{ a \to \infty } \frac{a^{1-p}}{1-p} - \frac{1}{1-p}
 $$
+
 When is this infinite?
 
 If $1-p<0 \iff p<1$, then $\int_{0}^{\infty} \frac{1}{x^p} \, dx < \infty$.
@@ -51,6 +55,7 @@ Example:
 $$
 S =\sum_{n=1}^{\infty} \frac{|\cos(n)|}{n^{2}}
 $$
+
 Does $S$ converge?
 Since $S \leq \frac{1}{n^{2}}$ by comparison with $\sum_{n=1}^{\infty} \frac{1}{n^{2}}$ which converges. So we know $S$ converges.
 
@@ -63,9 +68,11 @@ If $\sum_{n=n_{0}}^{\infty}|a_{n}|$ converges, then so does $\sum_{n=n_{0}}^{\in
 ## Ratio Test
 
 Assume all $a_{n} \neq 0$. Then consider
+
 $$
 \rho = \lim_{ n \to \infty } \frac{|a_{n+1}|}{|a_{n}|}
 $$
+
 If $0<\rho<1$, then the series converges.
 If $p>1$, then the series diverges.
 If $p=0$, use another test.

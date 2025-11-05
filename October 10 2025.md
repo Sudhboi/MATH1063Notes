@@ -6,12 +6,15 @@ $$
 $$
 a_{n}(x-a)^n <- \text{ term}
 $$
+
 where $a_{n}$ is the degree $n$ coefficient, $a$ is the centre.
 
 ### Example
+
 $$
 P(x) = \sum_{n=0}^{\infty}x^n=1 + x+x^{2}+\dots 
 $$
+
 Here, the centre is $0$, terms are $x^n$ and the coefficients are 1.
 
 Subbing in an $x$ value gives us a numerical series.
@@ -22,12 +25,15 @@ $$
 $$
 P(2) = \sum_{n=0}^{\infty} 2^n = 1 + 2 + 4 + \dots = \infty / D.N.E
 $$
+
 $P(x)$ gives a function s.t. $\frac{1}{3} \in Dom(P)$, $2 \not\in Dom(P)$. Given a $P(x)$, what is its domain?
 
 Use the ratio test, result depends on $x$. Compute the limit of ratio of consecutive non-zero terms. For $P(x)$, compute,
+
 $$
 \lim_{ n \to \infty } \frac{|a_{n+1}|}{|a_{n}|} = \frac{|a_{n+1}(x-a)^{n+1}|}{|a_{n}(x-a)^n|} = \lim_{ n \to \infty } \frac{|x|^{n+1}}{|x|^n} =|x| =\rho
 $$
+
 The ratio test says,
 * $0\leq \rho<1 \implies$ convergence,
 * $\rho=1 \implies$ we dont know lol
@@ -39,9 +45,11 @@ Verify endpoint cases where $|x| = 1$.
 All together, $Dom(P) = (-1,1)$.
 
 ### Example 2,
+
 $$
 \sum_{n=0}^{\infty} \frac{(-1)^n\cdot(x-3)^{2n}}{3^n}
 $$
+
 Figure out the open interval convergence first. Doing the ratio test,
 
 $$
@@ -57,12 +65,15 @@ $$
 $$
 3-\sqrt{ 3 }<x<3+\sqrt{ 3 }
 $$
+
 Therefore, it converges for $x \in (3-\sqrt{ 3 }, 3+\sqrt{ 3 })$
 
 Our endpoints are when $x -3 = \pm \sqrt{ 3 }$.
+
 $$
 \sum_{n=0}^{\infty} \frac{(-1)^n\cdot(x-3)^{2n}}{3^n} = \sum_{n=0}^{\infty} (-1)^n\cdot \frac{3^n}{3^n} = \sum_{n=0}^{\infty} (-1)^n=1-1+1 \dots
 $$
+
 So they diverge.
 
 ## Convergence of Power Series

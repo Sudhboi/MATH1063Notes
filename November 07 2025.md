@@ -85,3 +85,27 @@ $$
 
 Yea I'm not typing this out. Just use your brain.
 
+## Another Example
+
+$$
+\frac{x^{2} + 2}{x(x^{2}+1)^{2}} = \frac{A}{x} + \frac{Bx+C}{x^{2}+1} + \frac{Dx+E}{(x^{2}+1)^{2}}
+$$
+
+I'm not typing this out either.
+
+## Final loose end.
+
+$$
+\int \frac{Ax + B}{(x^{2}+a^{2})^{n}} dx = \frac{A}{2}\int \frac{2x}{(x^{2}+a^{2})^{n}} dx + B \int \frac{dx}{(x^{2}+a^{2})^{n}}
+$$
+
+$$
+\int \frac{dx}{(x^{2}+a^{2})^{n}} 
+$$
+$$
+x = a\tan \theta 
+$$
+
+You can figure the rest out (I'm not doing this during reading week.)
+
+ 

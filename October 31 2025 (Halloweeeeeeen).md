@@ -55,12 +55,12 @@ If in a boat, the compass always points in same direction, travel on straight li
 (Editor's note: I couldn't get github to recognize these images. My bad. You should be able to go through the attachments folder to figure out what this image is)
 
 
-![[Pasted image 20251031115237.png]]
+![image](attachments/Pasted%20image%2020251031115237.png)
 
 If you chop the sphere at $\theta$,
 
-![[Pasted image 20251031115546.png]]
-![[Pasted image 20251031115851.png]]
+![image](attachments/Pasted%20image%2020251031115546.png)
+![image](attachments/Pasted%20image%2020251031115851.png)
 
 lower side of square with length $h$ takes
 
@@ -70,11 +70,11 @@ $$
 
 of the latitudes, so length is $\frac{h}{\cos \theta}$ in projection.
 
-![[Pasted image 20251031120122.png]]
+![image](attachments/Pasted%20image%2020251031120122.png)
 
 The expansion factor varies with $\theta$ on unit space,
 
-![[Pasted image 20251031120424.png]]
+![image](attachments/Pasted%20image%2020251031120424.png)
 
 ## Trig Substitution (inside out u-sub, actually)
 

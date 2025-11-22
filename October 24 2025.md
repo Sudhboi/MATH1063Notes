@@ -23,7 +23,7 @@ $$
 $$
 
 where the power series converges.
-![[Pasted image 20251024114915.png]]
+![image](attachments/Pasted%20image%2020251024114915.png)
 
 ## Binomial Series
 
@@ -112,7 +112,7 @@ We integrate this and sub $\frac{\pi}{6}$ in.
 
 A function $f$ is Riemann integrable if integrals are well defined.
 
-![[Pasted image 20251024122014.png]]
+![image](attachments/Pasted%20image%2020251024122014.png)
 (Editor's note: I couldn't get github to recognize these images. My bad. You should be able to go through the attachments folder to figure out what this image is)
 
 Fact: $f$ is riemann integrable on $[a,b]$ exactly if it is bounded & only has finitely many discontinuities.

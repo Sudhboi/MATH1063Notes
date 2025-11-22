@@ -53,8 +53,8 @@ $$
 erf(x) = \int_{0}^{x} e^{-t^{2}} \, dt 
 $$
 
-![[Pasted image 20251022115740.png]]
-![[Pasted image 20251022115556.png]]
+![image](attachments/Pasted%20image%2020251022115740.png)
+![image](attachments/Pasted%20image%2020251022115556.png)
 
 (Editor's note: I couldn't get github to recognize these images. My bad. You should be able to go through the attachments folder to figure out what this image is)
 
@@ -74,7 +74,7 @@ $$
 \frac{\sin(x)}{x} = \frac{1}{x} \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!}x^{2n+1} = \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!}x^{2n}
 $$
 
-![[Pasted image 20251022120123.png]]
+![image](attachments/Pasted%20image%2020251022120123.png)
 
 ### Application 1:
 

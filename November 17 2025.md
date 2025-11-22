@@ -3,14 +3,14 @@
 
 Basic Volume is a generalized cylinder.
 
-![[Pasted image 20251117113356.png]]
+![image](attachments/Pasted%20image%2020251117113356.png)
 
 ## Approach 1: Slicing
 
 Take a solid $S$ and slice it into 2d slices that are perpendicular/orthogonal to some axis.
 
 Eg.
-![[Pasted image 20251117113748.png]]
+![image](attachments/Pasted%20image%2020251117113748.png)
 
 Coordinatize - base is in $xy$-plane, Slices perpendicular to the $z$
 
@@ -29,7 +29,7 @@ $A(0) = 2\times 3=6$ area of base.
 $A(5) = 0$
 
 Consider 2 sides.
-![[Pasted image 20251117114922.png]]
+![image](attachments/Pasted%20image%2020251117114922.png)
 
 are similar triangles.
 
@@ -67,13 +67,13 @@ $$
 
 ## Volume of the sphere
 
-![[Pasted image 20251117120058.png]]
+![image](attachments/Pasted%20image%2020251117120058.png)
 
 Axis perpendicular to slices: $x$
 
 Slice range: $-r \leq x\leq r$
 
-![[Pasted image 20251117120148.png]]
+![image](attachments/Pasted%20image%2020251117120148.png)
 
 $$
 A(x) = \pi(r^{2}-x^{2})
@@ -92,7 +92,7 @@ $$
 
 Eg. $f(x) = \frac{1}{x}$. Take region beneath curve starting at $x = 1$ and form a solid by rotating around $x$-axis.
 
-![[Pasted image 20251117120849.png]]
+![image](attachments/Pasted%20image%2020251117120849.png)
 
 Calculate Volume
 
@@ -114,7 +114,7 @@ $$
 ## Washers
 
 Example: Volume of sphere of radius 4 with cylinder of radius 1 drilled out.
-![[Pasted image 20251117121714.png]]
+![image](attachments/Pasted%20image%2020251117121714.png)
 
 Axis: $x$
 $x$-range
@@ -128,7 +128,7 @@ $$
 
 Area of a slice (washer)
 
-![[Pasted image 20251117121911.png]]
+![image](attachments/Pasted%20image%2020251117121911.png)
 
 Area = 
 

@@ -39,7 +39,7 @@ $$
 
 Here, remainder will be a number.
 
-![[Pasted image 20251105114230.png]]
+![image](attachments/Pasted%20image%2020251105114230.png)
 
 $$
 \therefore x^{3} = (x-1)(x^{2}+x+1) + 1
@@ -47,8 +47,7 @@ $$
 
 Note: $p$ does not divide $f$.
 Take,
-(Images aren't rendered properly in github (at least when using obsidian images). Please check the attachments folder for images.)
-![[Pasted image 20251105114458.png]]
+![image](attachments/Pasted%20image%2020251105114458.png)
 
 $$
 \therefore x^{3} = (x^{2}-1)(x) + x

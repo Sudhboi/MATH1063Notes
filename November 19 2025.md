@@ -3,11 +3,11 @@
 ![[Pasted image 20251119113709.png]]
 ![some image](attachments/Pasted%20image%2020251119113709.png)
 
-![[Pasted image 20251119114144.png]]
+![image](Pasted image 20251119114144.png)
 
-![[Pasted image 20251119114305.png]]
+![image](Pasted image 20251119114305.png)
 
-![[Pasted image 20251119114415.png]]
+![image](attachments/Pasted image 20251119114415.png)
 
 The volume of the cylinder is,
 
@@ -17,7 +17,7 @@ $$
 
 ## Approximation with n-shells
 
-![[Pasted image 20251119114756.png]]
+![image](attachments/Pasted%20image%2020251119114756.png)
 
 $$
 A_{n} = \sum_{i=0}^{n-1} f(x^*_{i})\cdot \pi(x_{i+1}^{2}-x_{i}^{2})
@@ -66,7 +66,7 @@ Which is the volume.
 
 What is the volume of rotating this around the $y$-axis?
 
-![[Pasted image 20251119115930.png]]
+![image](attachments/Pasted%20image%2020251119115930.png)
 
 $$
 = \int_{1}^{2} 2\pi x \frac{1}{x^{2}} \, dx  = [2\pi \ln x]^2_{1} = 2\pi \ln 2
@@ -76,7 +76,7 @@ $$
 
 How long is a curve?
 
-![[Pasted image 20251119120440.png]]
+![image](attachments/Pasted%20image%2020251119120440.png)
 
 ## Integral Mean Value Theorem
 
@@ -88,13 +88,13 @@ for some $x^* \in [a, b]$
 
 ## How to approximate arc length?
 
-![[Pasted image 20251119121139.png]]
+![image](attachments/Pasted%20image%2020251119121139.png)
 
 $$
 A_{n} = \sum l_{i}
 $$
 
-![[Pasted image 20251119121307.png]]
+![image](attachments/Pasted%20image%2020251119121307.png)
 
 By the MVT there is a sample point $x^{\*}_{i} \in [x_{i}, x_{{i+1}}]$ s.t.
 

@@ -1,14 +1,15 @@
 ## Computing Surface Area
 
-![[Pasted image 20251121113305.png]]
+![image](attachments/Pasted%20image%2020251121113305.png)
 
-![[Pasted image 20251121114728.png]]
+![image](attachments/Pasted%20image%2020251121114728.png)
 
 Area of a Frustum:
 $$
 A = \pi(r_{1}+r_{2})l
 $$
-![[Pasted image 20251121115158.png]]
+
+![image](attachments/Pasted%20image%2020251121115158.png)
 
 Area:
 
@@ -30,6 +31,7 @@ We have,
 $$
 \exists x_{i} \leq x_{i}^*\leq x_{i+1} \text{ s.t. } f'(x_{i}^*) = \frac{\Delta y_{i}}{\Delta x_{i}}
 $$
+
 by MVT, and,
 
 $$
@@ -58,11 +60,12 @@ $$
 $$
 A = \int_{-r}^{r} 2\pi r \, dx = [2\pi rx]^r_{-r} = 2\pi r \cdot 2r = 4\pi r^{2}
 $$
+
 ## Physical Applications
 
 1. If a linear rod has linear density $\rho (x)$,
 
-![[Pasted image 20251121121146.png]]
+![image](attachments/Pasted%20image%2020251121121146.png)
 
 then its mass is $M  = \int_{x_{\text{min}}}^{x_{\text{max}}} \rho(x) \, dx$. Integrand is the mass of an infinitesimal piece of rod.
 
@@ -71,6 +74,7 @@ then its mass is $M  = \int_{x_{\text{min}}}^{x_{\text{max}}} \rho(x) \, dx$. In
 $$
 M = \int_{0}^{R} 2\pi r \rho(r) \, dr 
 $$
-![[Pasted image 20251121121757.png]]
+
+![image](attachments/Pasted%20image%2020251121121757.png)
 
 Example: A pirate has a 10m dangling over their boat for crossfit. The linear density of the chain is 4 kg/m.

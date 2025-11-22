@@ -78,6 +78,7 @@ Slice range: $-r \leq x\leq r$
 $$
 A(x) = \pi(r^{2}-x^{2})
 $$
+
 So,
 
 $$

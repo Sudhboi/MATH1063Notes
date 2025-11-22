@@ -1,6 +1,7 @@
 ## Volumes of revolution using Cylindrical Shells
 
 ![[Pasted image 20251119113709.png]]
+![some image](attachments/Pasted%20image%2020251119113709.png)
 
 ![[Pasted image 20251119114144.png]]
 

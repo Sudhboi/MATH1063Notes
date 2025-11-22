@@ -3,11 +3,11 @@
 ![[Pasted image 20251119113709.png]]
 ![some image](attachments/Pasted%20image%2020251119113709.png)
 
-![image](Pasted image 20251119114144.png)
+![image](attachments/Pasted%20image%2020251119114144.png)
 
-![image](Pasted image 20251119114305.png)
+![image](attachments/Pasted%20image%2020251119114305.png)
 
-![image](attachments/Pasted image 20251119114415.png)
+![image](attachments/Pasted%20image%2020251119114415.png)
 
 The volume of the cylinder is,
 

@@ -19,6 +19,7 @@ $z$-Range for slices.
 $$
 0\leq z \leq 5
 $$
+
 Base at $z = 0$, tip $z = 5$
 
 Areas of slices.
@@ -37,12 +38,12 @@ Full triangle height 5 and base 3. Base of triangle at height $z$ is,
 $$
 b = \frac{5-z}{5}\cdot 3
 $$
+
 Viewed from the other side,
 
 $$
 b = \frac{5-z}{z}\cdot 2
 $$
-
 $$
 A(z) = \frac{3(5-z)}{5}\cdot \frac{2(5-z)}{5} = \frac{6}{25}(5-z)^{2}
 $$
@@ -52,6 +53,7 @@ $$
 $$
 \int_{z_{min}}^{z_{max}} \underbrace{A(z)}_{\text{Area of slice}} \, \underbrace{dz}_{\text{Infinitesimally small height}} 
 $$
+
 The integrand times $dz$ is the volume of an infinitesimally short "cylinder".
 
 Volume: 
@@ -62,6 +64,7 @@ $$
 $$
 = -\frac{(5-z)^{3}}{3}\cdot \frac{6}{25}|^5_{0} = 10
 $$
+
 ## Volume of the sphere
 
 ![[Pasted image 20251117120058.png]]
@@ -100,11 +103,13 @@ $$
 $$
 = \pi(f(x))^{2}
 $$
+
 Volume = 
 
 $$
 \int_{1}^{\infty} \pi\frac{1}{x^{2}} \, dx 
 $$
+
 ## Washers
 
 Example: Volume of sphere of radius 4 with cylinder of radius 1 drilled out.

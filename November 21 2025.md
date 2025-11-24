@@ -77,4 +77,4 @@ $$
 
 ![image](attachments/Pasted%20image%2020251121121757.png)
 
-Example: A pirate has a 10m dangling over their boat for crossfit. The linear density of the chain is 4 kg/m.
+Example: A pirate has a 10m dangling over their boat for crossfit. The linear density of the chain is 4 kg/m. Find the work done to pull it up.

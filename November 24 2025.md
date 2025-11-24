@@ -16,7 +16,7 @@ where,
 
 Parametrize your pieces
 
-![[Pasted image 20251124120831.png]]
+![image](attachments/Pasted%20image%2020251124120831.png)
 
 Here, 
 
@@ -35,8 +35,9 @@ Integrate it as you would.
 Ice pyramid
 
 $$
-\rho = 1000 \text{ kg/m\(^3\)}
+\rho = 1000 \text{ kg/m$^3$}
 $$
+
 Work needed to lift ice into pyramid shape.
 
 We add up the work needed to lift every infinitesimally thin horizontal slice.

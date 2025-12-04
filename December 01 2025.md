@@ -66,7 +66,7 @@ Eg.
 A probability measure $\mu$ on $S$ assigns a number between 0 and 1 to events in $E$. There are the following rules.
 
 1. $\mu(S) = 1$
-2. If $A \cap B = \phi,$ $\mu(A \cup B) = \mu(A) + \mu(B)$
+2. If $A \cap B = \phi,$ $\mu(A \cup B) = \mu(A) + \mu(B)$, in general, $\mu(A \cup B) = \mu(A) + \mu(B) - \mu(A\cap B)$.
 3. If $\{ A_{i} \}_{i=1}^\infty$ is a collection of disjoint events,
 
 $$

@@ -19,17 +19,20 @@ Eg.
 - Measurement errors
 - Genetics
 If $E$ is an event, eg. the chicken is white
+
 $$
-\frac{\text{\# of times event occurs in } E }{\text{\# of experiments}} \to^{\text{almost surely}} \mu(E)
+\frac{\text{\\# of times event occurs in } E }{\text{\\# of experiments}} \to^{\text{almost surely}} \mu(E)
 $$
-We say $X$ is a random variable if it represents the outcome of an experiment and we write $p(X \in E)$ to be the probability that $X$ is in $E$. ($P(X\in E) = \mu(E)$).
+
+We say $X$ is a random variable if it represents the outcome of an experiment and we write $p(X \in E)$ to be the probability that $X$ is in $E$. ( $P(X\in E) = \mu(E)$ ).
 
 Cumulative distribution function - 
+
 $$
 CDF(x) = \int_{-\infty}^{x} p(t) \, dt = P(X \leq x) = \mu((-\infty, x))
 $$
 
-(Cumulative distribution function is commonly written as $P(X)$).
+(Cumulative distribution function is commonly written as $P(X)$ ).
 
 Facts:
 
@@ -52,6 +55,7 @@ $$
 0 \text{ if } x \not\in [0,2]
 \end{cases}
 $$
+
 This represents picking a number in $[0, 2]$ uniformly at random.
 
 $$
@@ -68,19 +72,16 @@ $$
 	1. $f(x) > 0$
 	2. We see
 $$\int_{0}^{a} \frac{1}{1+x^{2}} \, dx = \arctan(a) \implies \int_{0}^{\infty} \frac{1}{1+x^{2}} \, dx = \lim_{ a \to \infty } \arctan(a) = \frac{\pi}{2}$$
-		similarly,
-		$$
-	\int_{-\infty}^{0} \frac{1}{1+x^{2}} \, dx = \frac{\pi}{2} 
-$$
-		Therefore,
-		$$
-\int_{-\infty}^{\infty} \frac{1}{1+x^{2}} \, dx = \pi
-$$
-		So,
-		$$
-p(x) = \frac{1}{\pi}f(x)
-$$
-		is a probability distribution function.
+	
+	Similarly,
+$$\int_{-\infty}^{0} \frac{1}{1+x^{2}} \, dx = \frac{\pi}{2}$$
+
+	Therefore,
+$$\int_{-\infty}^{\infty} \frac{1}{1+x^{2}} \, dx = \pi$$
+
+	So,
+$$p(x) = \frac{1}{\pi}f(x)$$
+	is a probability distribution function.
 
 3. Another example,
 
@@ -90,7 +91,8 @@ P(x) = \begin{cases}
 e^{-x} \text{ if } x > 0
 \end{cases}
 $$
-	Here, $P(x)$ is a probability distribution function.
+	
+Here, $P(x)$ is a probability distribution function.
 
 ## Expectation / Mean
 
@@ -102,7 +104,7 @@ $$
 
 in a continuous space.
 
-If $S = \{ x_{1},\dots,x_{n} \} \in \#\text{'s}$, $\bar{X} = \sum_{i=1}^{n} x_{i}\mu(\{ x_{i} \})$
+If $S = \{ x_{1},\dots,x_{n} \} \in \text{'s}$, $\bar{X} = \sum_{i=1}^{n} x_{i}\mu(\{ x_{i} \})$
 
 Eg. 6 sided die, $\bar{X} = \frac{1}{6} + \frac{2}{6} + \frac{3}{6} + \frac{4}{6} + \frac{5}{6} + \frac{6}{6}$ = $\frac{1}{6}\cdot \frac{6(7)}{2} = 3.5$
 

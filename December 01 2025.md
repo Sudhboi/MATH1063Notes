@@ -73,6 +73,6 @@ $$
 \mu\left( \bigcup_{i=1}^\infty A_{i} \right) = \sum_{i=1}^{\infty} \mu(A_{i}) \leq 1
 $$
 
-Eg. consider picking a real number at random with uniform probability inside \[0, 1] (Using a 10 sided coin obviously). Take $E = \left\{  \frac{1}{2}  \right\}$. $\mu(E) = 0$. 
+Eg. consider picking a real number at random with uniform probability inside \[0, 1] (Using a 10 sided coin obviously). Take $E = \left\\{  \frac{1}{2}  \right\\}$. $\mu(E) = 0$. 
 
-$\mathbb{Q} = \left\{  \frac{n}{q} :n, q \in \mathbb{Z}, q \neq 0 \right\}$. $\mathbb{Q}$ is countable. $\mathbb{Q} = \{ q_{0},q_{1},q_{2}\dots \}$, $\mathbb{Q} = \bigcup_{i=1}^{\infty}{q_{i}}$. 
+$\mathbb{Q} = \left\\{  \frac{n}{q} :n, q \in \mathbb{Z}, q \neq 0 \right\\}$. $\mathbb{Q}$ is countable. $\mathbb{Q} = \{ q_{0},q_{1},q_{2}\dots \}$, $\mathbb{Q} = \bigcup_{i=1}^{\infty}{q_{i}}$. 

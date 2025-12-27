@@ -1,1 +1,1 @@
-Welcome to my MATH 1063 Notes!
+This repository has been archived since my MATH1063 course is over.
